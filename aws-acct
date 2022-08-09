@@ -1,0 +1,15 @@
+aws:
+  accounts:
+  - name: sample
+    environment: shared-services
+    requiredGroupMembership: []
+    permissions:
+      READ:
+        - [*]
+      WRITE:
+        - [*]
+    accountId: '640077214053'
+    regions:
+      - name: ap-southeast-1
+    assumeRole: arn:aws:iam::810711266228:assumed-role/okta-admin-role/rodeleine.delmo@armory.io 
+    lifecycleHooks: []
