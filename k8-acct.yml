@@ -1,8 +1,8 @@
 kubernetes:
  enabled: true
- primaryAccount: spin-rodz-saaaaaaa
+ primaryAccount: spin-rodz-sa
  accounts:
- - name: spin-rodz-sa
+ - name: spin-rodz-saaaaaa
  requiredGroupMembership: []
  providerVersion: V2
  permissions: {}
@@ -20,24 +20,24 @@ kubernetes:
  oauthScopes: []
  oAuthScopes: []
  
-aws:
- accounts:
- - name: xero-ps-paas-svc
- environment: shared-services
- requiredGroupMembership: []
- permissions:
- READ:
-  - xf_armory-spinnaker
-  - xf_spinnaker-jobs
-  - sec - spinnaker - dev
- WRITE:
-  - ec2-user
-  - xf_armory-spinnaker
-  - xf_spinnaker-jobs
-  accountId: '640077214053'
-  regions:
-  - name: ap-southeast-2
-  - name: us-west-2
-  - name: us-east-1
- assumeRole: arn:aws:iam::640077214053:role/armory-spinnaker-aws-deployment-role
- lifecycleHooks: []
+# aws:
+#  accounts:
+#  - name: xero-ps-paas-svc
+#  environment: shared-services
+#  requiredGroupMembership: []
+#  permissions:
+#  READ:
+#   - xf_armory-spinnaker
+#   - xf_spinnaker-jobs
+#   - sec - spinnaker - dev
+#  WRITE:
+#   - ec2-user
+#   - xf_armory-spinnaker
+#   - xf_spinnaker-jobs
+#   accountId: '640077214053'
+#   regions:
+#   - name: ap-southeast-2
+#   - name: us-west-2
+#   - name: us-east-1
+#  assumeRole: arn:aws:iam::640077214053:role/armory-spinnaker-aws-deployment-role
+#  lifecycleHooks: []
