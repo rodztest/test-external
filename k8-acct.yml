@@ -1,6 +1,6 @@
         kubernetes:
           enabled: true
-          primaryAccount: spin-rodz-sa
+          primaryAccount: spin-rodz-saaaaaaa
           accounts:
           - name: spin-rodz-sa
             requiredGroupMembership: []
@@ -19,18 +19,3 @@
             kubeconfigFile: "encryptedFile:s3!r:ap-southeast-1!b:rodz-spinbucket!f:kubeconfig-sa"
             oauthScopes: []
             oAuthScopes: []
-aws:
-  accounts:
-  - name: sample
-    environment: shared-services
-    requiredGroupMembership: []
-    permissions:
-      READ:
-        - [*]
-      WRITE:
-        - [*]
-    accountId: '640077214053'
-    regions:
-      - name: ap-southeast-1
-    assumeRole: arn:aws:iam::810711266228:assumed-role/okta-admin-role/rodeleine.delmo@armory.io 
-    lifecycleHooks: []
