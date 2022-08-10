@@ -1,6 +1,6 @@
 kubernetes:
  enabled: true
- primaryAccount: spin-rodz-sa
+ primaryAccount: spin-rodz-saaaaaa
  accounts:
  - name: spin-rodz-saaaaaa
  requiredGroupMembership: []
