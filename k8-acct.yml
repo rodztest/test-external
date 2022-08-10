@@ -1,0 +1,21 @@
+        kubernetes:
+          enabled: true
+          primaryAccount: spin-rodz-sa
+          accounts:
+          - name: spin-rodz-sa
+            requiredGroupMembership: []
+            providerVersion: V2
+            permissions: {}
+            configureImagePullSecrets: true
+            cacheThreads: 2
+            liveManifestCalls: false
+            namespaces:
+            omitNamespaces: []
+            kinds: []
+            omitKinds: []
+            customResources: []
+            cachingPolicies: []
+            dockerRegistries: []
+            kubeconfigFile: "encryptedFile:s3!r:ap-southeast-1!b:rodz-spinbucket!f:kubeconfig-sa"
+            oauthScopes: []
+            oAuthScopes: []
