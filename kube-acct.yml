@@ -1,7 +1,7 @@
 kubernetes:
  enabled: true
  accounts:
- - name: spin-rodz-saaaaaa
+ - name: spin-rodz-sa
    requiredGroupMembership: []
    providerVersion: V2
    permissions: {}
