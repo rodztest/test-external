@@ -9,4 +9,4 @@ aws:
     regions:
       - name: ap-southeast-1
     assumeRole: okta-admin-role/rodeleine.delmo@armory.io
-    primaryAccount: rodeleine.delmo@armory.io
+  primaryAccount: rodeleine.delmo@armory.io
