@@ -1,7 +1,7 @@
 aws:
   enabled: true
   accounts:
-  - name: rodeleine.delmo@armory.io
+  - name: rodz-aws
     requiredGroupMembership: []
     providerVersion: V1
     permissions: {}
@@ -9,4 +9,4 @@ aws:
     regions:
       - name: ap-southeast-1
     assumeRole: okta-admin-role/rodeleine.delmo@armory.io
-  primaryAccount: rodeleine.delmo@armory.io
+
