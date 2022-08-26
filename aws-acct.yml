@@ -1,19 +1,12 @@
 aws:
+  enabled: true
   accounts:
-  - name: rodeleine.delmo@armory.io
-    environment: shared-services
+  - name: rodz-aws
     requiredGroupMembership: []
-    permissions:
-      READ:
-        - xf_armory-spinnaker
-        - xf_spinnaker-jobs
-        - sec - spinnaker - dev
-      WRITE:
-        - ec2-user
-        - xf_armory-spinnaker
-        - xf_spinnaker-jobs
+    providerVersion: V1
+    permissions: {}
     accountId: '810711266228'
     regions:
       - name: ap-southeast-1
     assumeRole: arn:aws:sts::810711266228:assumed-role/okta-admin-role/rodeleine.delmo@armory.io
-    lifecycleHooks: []
+    primaryAccount: rodz-aws
