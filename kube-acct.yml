@@ -1,6 +1,23 @@
 kubernetes:
  enabled: true
  accounts:
+ - name: spin-rodz-sa
+   requiredGroupMembership: []
+   providerVersion: V2
+   permissions: {}
+   configureImagePullSecrets: true
+   cacheThreads: 2
+   liveManifestCalls: false
+   namespaces:
+   - rodz-ns
+   omitNamespaces: []
+   kinds: []
+   omitKinds: []
+   customResources: []
+   cachingPolicies: []
+   dockerRegistries: []
+   oauthScopes: []
+   oAuthScopes: []
  - name: kynah-sa
    requiredGroupMembership: []
    providerVersion: V2
