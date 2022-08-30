@@ -8,14 +8,14 @@ kubernetes:
    configureImagePullSecrets: true
    cacheThreads: 2
    liveManifestCalls: false
-   namespaces:
+   namespaces: 
+   - kynah
    omitNamespaces: []
    kinds: []
    omitKinds: []
    customResources: []
    cachingPolicies: []
    dockerRegistries: []
-   kubeconfigFile: "encryptedFile:s3!r:ap-southeast-1!b:kynah-bucket!f:kubeconfig-sa"
    oauthScopes: []
    oAuthScopes: []
  
