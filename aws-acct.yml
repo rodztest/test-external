@@ -9,19 +9,13 @@ aws:
     regions:
       - name: us-east-2
     assumeRole: role/test-managed-role-ky
-  - name: xero-ps-paas-test
-    environment: test
+  accounts:
+  - name: austin-aws
     requiredGroupMembership: []
-    permissions:
-      READ:
-      - xf_armory-spinnaker-test
-      - sec - spinnaker - dev
-      WRITE:
-      - ec2-user
-      - xf_armory-spinnaker-test
-    accountId: '046921848075'
+    providerVersion: V1
+    permissions: {}
+    accountId: '810711266228'
     regions:
-    - name: ap-southeast-2
-    assumeRole: role/armory-spinnaker-test-aws-deployment-role
-    lifecycleHooks: []
-
+      - name: us-west-2
+    assumeRole: role/austin-aws-role
+       
