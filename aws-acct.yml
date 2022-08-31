@@ -22,6 +22,6 @@ aws:
     accountId: '046921848075'
     regions:
     - name: ap-southeast-2
-    assumeRole: arn:aws:iam::046921848075:role/armory-spinnaker-test-aws-deployment-role
+    assumeRole: role/armory-spinnaker-test-aws-deployment-role
     lifecycleHooks: []
 
