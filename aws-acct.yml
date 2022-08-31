@@ -9,11 +9,3 @@ aws:
     regions:
       - name: us-east-2
     assumeRole: role/test-managed-role-ky
-  - name: austin-aws
-    requiredGroupMembership: []
-    providerVersion: V1
-    permissions: {}
-    accountId: '810711266228'
-    regions:
-      - name: us-west-2
-    assumeRole: role/austin-aws-role
