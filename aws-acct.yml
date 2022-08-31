@@ -9,7 +9,6 @@ aws:
     regions:
       - name: us-east-2
     assumeRole: role/test-managed-role-ky
-  accounts:
   - name: austin-aws
     requiredGroupMembership: []
     providerVersion: V1
