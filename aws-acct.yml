@@ -7,4 +7,4 @@ aws:
     accountId: '810711266228'
     regions:
       - name: us-east-2
-    assumeRole: role/test-managed-role-ky
+    assumeRole: arn:aws:iam::810711266228:role/test-managed-role-ky
