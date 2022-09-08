@@ -1,5 +1,4 @@
 aws:
-  enabled: true
   accounts:
   - name: kynah-aws
     requiredGroupMembership: []
