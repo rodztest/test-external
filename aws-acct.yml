@@ -1,4 +1,6 @@
 aws:
+  enabled: true
+  primaryAccount: kynah-aws
   accounts:
   - name: kynah-aws
     requiredGroupMembership: []
@@ -8,3 +10,4 @@ aws:
     regions:
       - name: us-east-2
     assumeRole: arn:aws:iam::810711266228:role/test-managed-role-ky
+    
