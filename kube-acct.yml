@@ -1,6 +1,4 @@
 kubernetes:
- enabled: true
- primaryAccount: spin-rodz-sa
  accounts:
  - name: spin-rodz-sa
    requiredGroupMembership: []
