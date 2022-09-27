@@ -1,6 +1,4 @@
 aws:
-  enabled: true
-  primaryAccount: kynah-aws
   accounts:
   - name: kynah-aws
     requiredGroupMembership: []
