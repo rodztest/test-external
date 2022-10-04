@@ -34,4 +34,5 @@ kubernetes:
    dockerRegistries: []
    oauthScopes: []
    oAuthScopes: []
+ primaryAccount: spin-rodz-sa
  
