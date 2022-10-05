@@ -18,5 +18,22 @@ kubernetes:
    dockerRegistries: []
    oauthScopes: []
    oAuthScopes: []
+- name: kynah-sa
+  requiredGroupMembership: []
+  providerVersion: V2
+  permissions: {}
+  configureImagePullSecrets: true
+  cacheThreads: 2
+  liveManifestCalls: false
+  namespaces: 
+  - kynah
+  omitNamespaces: []
+  kinds: []
+  omitKinds: []
+  customResources: []
+  cachingPolicies: []
+  dockerRegistries: []
+  oauthScopes: []
+  oAuthScopes: []
 
  
