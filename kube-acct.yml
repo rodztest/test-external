@@ -12,7 +12,7 @@ kubernetes:
    omitNamespaces: []
    kinds: []
    omitKinds: 
-    - CustomResourceDefinition
+    -kind: CustomResourceDefinition
    customResources: []
    cachingPolicies: []
    dockerRegistries: []
