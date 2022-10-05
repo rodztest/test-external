@@ -11,7 +11,8 @@ kubernetes:
    - rodz-ns
    omitNamespaces: []
    kinds: []
-   omitKinds: []
+   omitKinds: 
+    - CustomResourceDefinition
    customResources: []
    cachingPolicies: []
    dockerRegistries: []
