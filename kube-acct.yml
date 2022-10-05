@@ -7,7 +7,7 @@ kubernetes:
    configureImagePullSecrets: true
    cacheThreads: 2
    liveManifestCalls: false
-   namespaces:
+   namespaces: []
    omitNamespaces: []
    kinds: []
    omitKinds: []
