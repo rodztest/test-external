@@ -8,7 +8,6 @@ kubernetes:
    cacheThreads: 2
    liveManifestCalls: false
    namespaces:
-   - rodz-ns
    omitNamespaces: []
    kinds: []
    omitKinds: []
