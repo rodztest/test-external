@@ -1,6 +1,6 @@
 kubernetes:
  accounts:
- - name: spin-rodz-sa
+ - name: rodz-sa
    requiredGroupMembership: []
    providerVersion: V2
    permissions: {}
@@ -14,7 +14,7 @@ kubernetes:
    customResources: []
    cachingPolicies: []
    dockerRegistries: []
-   kubeconfigFile: encryptedFile:s3!r:ap-southeast-1!b:rodz-spinbucket!f:kubeconfig-sa-rodz
+   kubeconfigFile: encryptedFile:s3!r:ap-southeast-1!b:rodz-spinbucket!f:kubeconfig-rodz-sa
    oauthScopes: []
    oAuthScopes: []
  - name: kynah-sa
