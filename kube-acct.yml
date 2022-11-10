@@ -14,7 +14,7 @@ kubernetes:
    customResources: []
    cachingPolicies: []
    dockerRegistries: []
-   kubeconfigFile: encryptedFile:s3!r:ap-southeast-1!b:rodz-spinbucket!f:kubeconfig-rodz-sa
+   kubeconfigFile: encryptedFile:s3!r:ap-southeast-1!b:rodz-spinbucket!f:kubeconfig-rodz-saa
    oauthScopes: []
    oAuthScopes: []
  - name: kynah-sa
